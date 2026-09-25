@@ -1,0 +1,27 @@
+{
+  "name": "Azure & Entra - Ubuntu 24.04 LTS (Recommended)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "powershell.powerShellAdditionalExePaths": {
+          "PowerShell 7 (Dev Container)": "/usr/local/bin/pwsh"
+        },
+        "powershell.powerShellDefaultVersion": "PowerShell 7 (Dev Container)"
+      },
+      "extensions": [
+        "ms-vscode.PowerShell",
+        "ms-azuretools.vscode-bicep",
+        "ms-azure-devops.azure-pipelines",
+        "redhat.vscode-yaml",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

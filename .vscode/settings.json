@@ -1,0 +1,46 @@
+{
+  "editor.formatOnSave": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "azure-pipelines.yml": "azure-pipelines",
+    "azure-pipelines.yaml": "azure-pipelines",
+    "**/pipelines/*.yml": "azure-pipelines",
+    "**/pipelines/*.yaml": "azure-pipelines",
+    "**/.azuredevops/**/*.yml": "azure-pipelines",
+    "**/.azuredevops/**/*.yaml": "azure-pipelines"
+  },
+  "json.validate.enable": true,
+  "yaml.validate": true,
+  "yaml.schemaStore.enable": true,
+  "powershell.scriptAnalysis.enable": true,
+  "powershell.codeFormatting.preset": "OTBS",
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.PowerShell",
+    "editor.formatOnSave": true
+  },
+  "[bicep]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-bicep",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[azure-pipelines]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  }
+}
